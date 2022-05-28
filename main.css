@@ -1,0 +1,40 @@
+*{margin:0px;padding:3px;color: #181818 word-break; break-all; word-wrap; break-word; }
+
+body { font: 0.9em Georgia, "Times New Roman", Serif; background: #F5F5F5; }
+a { color: #37628d; text-decoration: none; }
+	a:hover { color: #668099;  }
+	a:visited{ color: #668099;  }
+p { line-height: 1.7em; margin: 0 0 1px; }
+.x { clear: both; }
+
+h1 { float: left; font-size: 2.3em; font-weight: normal; padding: 0 0 25px 0px; margin: 0 0 10px; color:#000000 }
+h2 { font-weight: normal; font-size: 1.8em; padding: 0 0 10px; margin: 0 0 5px; color: #37628d}
+h3 { font-size: 1.3em; font-weight: normal; margin: 0 0 5px; }
+	h3 a { color: #37628d; }
+	h3 a:hover{ color: #668099; }
+	h3 a:visited { color: #668099; }
+h4 { font-size: 0.9em; font-weight: normal; margin: 0 0 0px; }
+    h4 a { color: #37628d; }
+	h4 a:hover{ color: #668099; }
+	h4 a:visited { color: #668099; }
+
+#content { width: 960px; margin: 1px auto; }
+#welcome { width: 960px; margin: 30px auto; }
+
+#menu { font-size: 1.8em; float: right; margin: 10px 1px 5px 10px; }
+	#menu li { display: inline; list-style: none; }
+	#menu li a { float: left; margin: 0 0 0 20px; color: #37628d; }
+		#menu li a:hover { color: #668099; }
+		#menu li a:visited { color: #668099; }
+		
+
+.post { clear: both; padding: 10px 0px; border-top: 1px solid #ddd; border-bottom: 0px solid #ddd; margin: 0 0 0px; }
+	.post .details { float: left; width: 190px; }
+	.post .details .info { font-size: 1.0em; color: #000000; padding: 10px 0 0 0; }
+		.post .details .info a { color: #323232 ; border-bottom: 1px dotted #999;}
+	.post .body { float: right; width: 700px; padding: 10px 0 0 30px; border-left: 1px solid #ddd;}
+	.post .body a{ color: #37628d;}
+	.post .body a:hover{ color: #668099; }
+	.post .body a:visited { color: #668099; }
+	
+ 
