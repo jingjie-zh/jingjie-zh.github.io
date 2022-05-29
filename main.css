@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
 }
@@ -16,85 +12,90 @@ ul.nav {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-list-style-type: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-overflow: hidden;
+  overflow: hidden;
   background-color: SteelBlue;
 }
 
-
 ul.nav li {
-Float:right;
- }
-
-
-ul.nav li.left {float: left}
-
-ul.nav Li a {
-Display:block;
-color: MistyRose;
+  float:left;
+}
+ul.nav li a {
+  display:block;
+  color: MistyRose;
   text-align: center;
   text-decoration: none;
-padding: 1rem 2rem 1rem;
+  padding: 1rem 2rem 1rem;
 }
-ul.nav Li a:hover {
+ul.nav li a:hover {
   background-color: #fff0ee;
   color: SteelBlue;
 }
 
-img.avatar{
-width:250px; 
-float: left; 
-margin: 1rem 5rem 1rem 1rem
+.container{
+  width: 90%;
+  margin: auto;
+}
+.post{
+  width: 95%;
+  margin: 5px auto;
+  padding: 1rem;
+  border: 2px ridge mistyrose;
+  border-radius: 5px;
+  padding: 2px;
 }
 
-.container{
-width: 90%;
-margin: 0rem 5rem;
-padding: 5rem;
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
+img.avatar{
+  width:230px; 
+  float: left; 
+  margin: 1rem 4rem 1rem;
+  border: 2px ridge mistyrose;
+  border-radius: 5px;
+  padding: 2px;
+}
+
 ul.body{
 list-style-type: none; /*circle,square,none*/
 }
-Li.body{
+li.body{
 }
-Li.body a:link {
+li.body a:link {
   color: steelblue;
 }
 
 /* visited link */
-Li.body a:visited {
+li.body a:visited {
   color: skyblue;
 }
-}
-.about{
-margin: 2rem;
-padding: 3rem 5rem;
-font:1.8rem
-}
 
-
-.p1{
-Color: SteelBlue;
-Font: Bold 1.8rem Arial, sans-serif;
-}
 
 
 h2{
-Color: SteelBlue;
-Font: 1.8rem Arial, sans-serif;
-Border-bottom: 1px solid ;
+color: SteelBlue;
+font: 1.8rem Arial, sans-serif;
+border-bottom: 1px solid ;
 }
 h3{
 Color: #363945;
 Font: Arial, sans-serif;
 }
 
+.p1{
+Color: SteelBlue;
+Font: Bold 1.8rem Arial, sans-serif;
+}
 .p2{
 Color: #363945;
 Font: normal Times New Roman,serif;
 }
+
 a:link {
   color: steelblue;
 }
@@ -111,22 +112,21 @@ a:hover {
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  Img.avatar {
-    width: 45%;
-Float: none
-  }
 
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   ul.nav Li {
     float: none;
     width: 100%;
   }
-ul.nav Li a {
-padding: 1rem 10rem 1rem;
-}
-ul.nav li.left
+  ul.nav Li a {
+    padding: 1rem 10rem 1rem;
+  }
+  .p1{
+    Font: 1.5rem Arial, sans-serif;
+  }
+  img.avatar {
+    width: 70%;
+    margin: 1rem 2rem;
+    float: none
+  }
 }
