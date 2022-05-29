@@ -7,7 +7,19 @@ body {
   background-color: #f1f1f1;
   text-align: center;
 }
-
+.footer {
+  text-align: center;
+  list-style-type: none;
+  margin: 1rem 0 0;
+  padding: 2rem 0rem;
+  height: 4rem;
+  overflow: hidden;
+  background-image:url('ft6.jpg');
+}
+.pf{
+  color: mistyrose;
+  font: normal Times New Roman,serif;
+}
 ul.nav {
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -118,7 +130,7 @@ a:hover {
     width: 100%;
   }
   ul.nav Li a {
-    padding: 1rem 10rem 1rem;
+    padding: 1rem 2rem 1rem;
   }
   .p1{
     Font: 1.5rem Arial, sans-serif;
