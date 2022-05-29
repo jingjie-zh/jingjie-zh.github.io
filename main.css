@@ -56,9 +56,8 @@ img.avatar{
   width:230px; 
   float: left; 
   margin: 1rem 4rem 1rem;
-  border: 2px ridge mistyrose;
-  border-radius: 5px;
-  padding: 2px;
+  box-shadow: 0 2px 5px 0 steelblue;
+  box-radius: 5px;
 }
 
 ul.body{
